@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186227001B459EBE0034BA15 /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186226FF1B459EBE0034BA15 /* SideBarTableViewController.swift */; };
+		186227021B45B2890034BA15 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186227011B45B2890034BA15 /* SideBar.swift */; };
 		188DF67E1B45734B004E824E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DF67D1B45734B004E824E /* AppDelegate.swift */; };
 		188DF6801B45734B004E824E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188DF67F1B45734B004E824E /* ViewController.swift */; };
 		188DF6831B45734B004E824E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188DF6811B45734B004E824E /* Main.storyboard */; };
@@ -26,12 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		186226FF1B459EBE0034BA15 /* SideBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
+		186227011B45B2890034BA15 /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
 		188DF6781B45734B004E824E /* BlurrySideBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurrySideBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		188DF67C1B45734B004E824E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		188DF67D1B45734B004E824E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		188DF67F1B45734B004E824E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		188DF6821B45734B004E824E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		188DF6841B45734B004E824E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		188DF6841B45734B004E824E /* Images.xcassets */ = {isa = PBXFileReference; explicitFileType = wrapper.xcdatamodel; path = Images.xcassets; sourceTree = "<group>"; };
 		188DF6871B45734B004E824E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		188DF68D1B45734B004E824E /* BlurrySideBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurrySideBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		188DF6921B45734B004E824E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				188DF6841B45734B004E824E /* Images.xcassets */,
 				188DF6861B45734B004E824E /* LaunchScreen.xib */,
 				188DF67B1B45734B004E824E /* Supporting Files */,
+				186226FF1B459EBE0034BA15 /* SideBarTableViewController.swift */,
+				186227011B45B2890034BA15 /* SideBar.swift */,
 			);
 			path = BlurrySideBar;
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				188DF6801B45734B004E824E /* ViewController.swift in Sources */,
+				186227001B459EBE0034BA15 /* SideBarTableViewController.swift in Sources */,
+				186227021B45B2890034BA15 /* SideBar.swift in Sources */,
 				188DF67E1B45734B004E824E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +417,7 @@
 				188DF6991B45734B004E824E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		188DF69A1B45734B004E824E /* Build configuration list for PBXNativeTarget "BlurrySideBarTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				188DF69C1B45734B004E824E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
